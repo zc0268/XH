@@ -1,1 +1,17 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: msg-provider
 
+dubbo:
+  scan:
+    base-packages: org.example.demo
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    register: true
+    address: zookeeper://101.200.44.140:2181
+  provider:
+    timeout: 3000
