@@ -1,1 +1,6 @@
-
+#mail
+spring.mail.host=smtp.163.com
+spring.mail.username=zc0268java@163.com
+#163的授权码
+spring.mail.password=xxxx
+spring.mail.default-encoding=UTF-8
